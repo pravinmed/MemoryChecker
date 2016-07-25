@@ -1,0 +1,48 @@
+* {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 2em;
+}
+
+.controls {
+    text-align: center;
+    margin: 0 auto 1em;
+}
+
+.pizza-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.score {
+    background: #ffdc00;
+    line-height: 50px;
+}
+
+.player {
+    background: burlywood;
+}
+
+.pizza {
+    background: #FFDC00;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    width: 100px;
+    margin: .5em;
+    visibility: visible;
+    background-image: url("");
+}
+
+.remove-pizza {
+    background: #000;
+    color: #FFF;
+    padding: 0.25em;
+    text-decoration: none;
+    border-radius: 3px;
+}
